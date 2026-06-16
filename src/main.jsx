@@ -259,7 +259,7 @@ function App() {
                     <XAxis dataKey="name"/>
                     <YAxis tickFormatter={v => `$${v/1000000}M`}/>
                     <Tooltip formatter={v => money(v)}/>
-                    <Bar dataKey="spend" name="Annual Spend"/>
+                    <Bar dataKey="spend" name="Annual Spend" fill="#7c3aed" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
